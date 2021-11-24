@@ -10,6 +10,7 @@ module.exports = {
     },
     module:{
         rules:[
+            { test:/\.js$/, use: ['source-map-loader'] },
             { test:/\.(le|c)ss$/, use: ['style-loader','css-loader','less-loader'] }
         ]
     },
@@ -17,6 +18,6 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({
             template: path.resolve(__dirname, '../static/index.html')
-        }),
+        })
     ],
 }
