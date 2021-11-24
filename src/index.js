@@ -9,4 +9,3 @@ const equivalent = [1, 2, 3].map(function(n) {
 
 console.log('arrowFunction :', arrowFunction)
 console.log('equivalent :', equivalent)
-undefined

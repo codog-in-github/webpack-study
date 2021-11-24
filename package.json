@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "build": "npx webpack --config ./config/webpack.pro.js",
+    "watch": "npx webpack --config ./config/webpack.dev.js --watch"
   }
 }
