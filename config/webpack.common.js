@@ -4,11 +4,14 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry:{
-        dep: path.resolve(__dirname, '../src/dep.js'),
         index:{
-            dependOn:'dep',
             import: path.resolve(__dirname, '../src/index.js')
         }
+    },
+    module:{
+        rules:[
+            { test:/\.(le|c)ss$/, use: ['style-loader','css-loader','less-loader'] }
+        ]
     },
     plugins:[
         new CleanWebpackPlugin(),
