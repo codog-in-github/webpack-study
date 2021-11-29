@@ -1,9 +1,9 @@
 const commonConfig = require('./webpack.common')
 const path = require('path')
-const webpackServer = require('../plugin/service')
+const WebpackServer = require('../plugin/WebpackServer')
 
 commonConfig.plugins.push(
-    new webpackServer()
+    new WebpackServer()
 )
 
 module.exports = {

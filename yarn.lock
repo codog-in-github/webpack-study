@@ -1463,6 +1463,11 @@ wrappy@1:
   resolved "https://mirrors.huaweicloud.com/repository/npm/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
+ws@^8.3.0:
+  version "8.3.0"
+  resolved "https://mirrors.huaweicloud.com/repository/npm/ws/-/ws-8.3.0.tgz#7185e252c8973a60d57170175ff55fdbd116070d"
+  integrity sha512-Gs5EZtpqZzLvmIM59w4igITU57lrtYVFneaa434VROv4thzJyV6UjIL3D42lslWlI+D4KzLYnxSwtfuiO79sNw==
+
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://mirrors.huaweicloud.com/repository/npm/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
